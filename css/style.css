@@ -1,106 +1,64 @@
-html {
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-left: 20%;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(0, 0, 0, .87)
+}
+
+.container {
+    width: 70%;
+    margin: auto;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    padding-left: 20%;
-    text-align: center;
-    background-color: #EEEEEE;
-}
+/* Side Bar */
 
 .sidebar {
-    width: 20%;
-    background-color: #212121;
-    text-align: center;
     position: fixed;
-    top: 0;
     left: 0;
-    bottom: 0;
+    width: 20%;
+    min-width: 200px;
+    height: 100%;
+    background-color: #212121;
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .picture img {
-    width: 70%;
-    border: 7px solid #616161;
+    margin-top: 50px;
     border-radius: 50%;
+    border: 2px solid #ffeb3b;
 }
 
 .menu ul {
+    height: 300px;
+    margin-bottom: 90px;
+    list-style: none;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-}
-
-.menu ul li {
-    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu ul li a {
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 3px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .3);
     text-decoration: none;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, .7);
-    line-height: 2.3em;
+    transition: 300ms;
 }
 
-.main-content {
-    padding: 0 100px 0 50px;
-    text-align: center;
-}
-
-.section-content {
-    margin-bottom: 50px;
-}
-
-.section-content#profile {
-    padding-top: 40px;
-    color: rgba(255, 255, 255, .87);
-    background-color: #212121;
-    width: 100%;
-}
-
-.name-line {
-    width: 33.333%;
-    margin: auto;
-    border-bottom: 2.5px solid yellowgreen;
-    margin-bottom: 20px;
-}
-
-#profile h1 {
-    font-size: 4rem;
-}
-
-#profile h1 span {
-    font-size: 7rem;
-}
-
-#profile h4 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.profile-description {
-    background-color: rgba(255, 255, 255, .15);
-    display: inline-block;
-    width: 80%;
-    padding: 0 30px;
-    margin: auto;
-    margin-bottom: 40px;
-    border-radius: .5%;
-}
-
-.section-tittle {
-    font-size: 4rem;
+.menu ul li a:hover {
+    color: #ffeb3b;
 }
