@@ -1,6 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
+html {
     font-family: 'Open Sans', sans-serif;
     color: rgba(0, 0, 0, .87)
 }
@@ -11,7 +9,10 @@ p {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     padding-left: 20%;
+    text-align: center;
     background-color: #EEEEEE;
 }
 
@@ -32,7 +33,6 @@ body {
     width: 70%;
     border: 7px solid #616161;
     border-radius: 50%;
-    box-shadow: 
 }
 
 .menu ul {
@@ -57,23 +57,48 @@ body {
 
 .main-content {
     padding: 0 100px 0 50px;
+    text-align: center;
 }
 
 .section-content {
     margin-bottom: 50px;
 }
 
-#profile {
-    padding-top: 130px;
+.section-content#profile {
+    padding-top: 40px;
+    color: rgba(255, 255, 255, .87);
+    background-color: #212121;
+    width: 100%;
+}
+
+.name-line {
+    width: 33.333%;
+    margin: auto;
+    border-bottom: 2.5px solid yellowgreen;
+    margin-bottom: 20px;
 }
 
 #profile h1 {
-    font-size: 6rem;
+    font-size: 4rem;
+}
+
+#profile h1 span {
+    font-size: 7rem;
 }
 
 #profile h4 {
     font-size: 2rem;
     margin-bottom: 20px;
+}
+
+.profile-description {
+    background-color: rgba(255, 255, 255, .15);
+    display: inline-block;
+    width: 80%;
+    padding: 0 30px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: .5%;
 }
 
 .section-tittle {
