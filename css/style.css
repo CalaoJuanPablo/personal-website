@@ -8,6 +8,12 @@ body {
     padding-left: 20%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    background-color: #e2e1e0;
+    color: rgba(0, 0, 0, .87);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -15,12 +21,84 @@ body {
     margin: auto;
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3em;
-    line-height: 1.3;
-    letter-spacing: 1.3px;
+.section {
+    display: block;
+    margin: 1rem;
+    padding: 2rem 0;
+    background-color: #fff;
 }
+
+.section-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.col-2 {
+    width: 450px;
+}
+
+.row-1 {
+    height: 100px;
+}
+
+.row-2 {
+    height: 200px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 2px;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.card-p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin: 0 auto;
+}
+
+.card-h {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .card-h:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .level-1 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  
+  .level-2 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  .level-3 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .level-4 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
 
 /* Side Bar */
 
@@ -54,22 +132,28 @@ p {
     flex-wrap: wrap;
 }
 
+.menu ul li {
+    padding: .5rem;
+}
+
 .menu ul li a {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 500;
     color: rgba(255, 255, 255, .3);
     text-decoration: none;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
     transition: 300ms;
 }
 
-.menu ul li a:hover {
+.menu ul li:hover a {
     color: #ffeb3b;
 }
 
 /* Hero */
 
 .hero {
-    background-color: #212121;
+    background-color: #484848;
     color: white;
     display: inline-block;
 }
@@ -80,22 +164,31 @@ p {
 }
 
 .first-name {
-    font-size: 8em;
+    font-size: 8rem;
     margin-top: 100px;
 }
 
 .last-name {
-    font-size: 5em;
+    font-size: 5rem;
     padding-bottom: 20px;
     border-bottom: 2px solid #ffeb3b;
 }
 
 .subtittle {
     margin-top: 30px;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .profile-description {
     margin-top: 20px;
-    padding-bottom: 130px;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 20px 50px;
+    margin-bottom: 70px;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    letter-spacing: 1.3px;
 }
+
+/* Experience */
+
