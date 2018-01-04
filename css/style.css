@@ -200,5 +200,60 @@ p {
     letter-spacing: 1.3px;
 }
 
-/* Experience */
+/* Skils */
 
+.progress-tank {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 6rem;
+    height: 12rem;
+    border-radius: 10px;
+}
+
+.tank-1 {
+    background: linear-gradient(
+        0deg,
+        #ff5722 90%,
+        #484848 10%
+    );
+}
+
+.tank-2 {
+    background: linear-gradient(
+        0deg,
+        #2196f3 90%,
+        #484848 10%
+    );
+}
+
+.tank-3 {
+    background: linear-gradient(
+        0deg,
+        #ffeb3b 90%,
+        #484848 10%
+    );
+}
+
+.tank-4 {
+    background: linear-gradient(
+        0deg,
+        #9c27b0 90%,
+        #484848 10%
+    );
+}
+
+.tank-5 {
+    background: linear-gradient(
+        0deg,
+        #3f51b5 90%,
+        #484848 10%
+    );
+}
+
+.tank-6 {
+    background: linear-gradient(
+        0deg,
+        #f44639 90%,
+        #484848 10%
+    );
+}
