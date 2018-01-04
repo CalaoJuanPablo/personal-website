@@ -34,8 +34,17 @@ p {
     margin-bottom: 2rem;
 }
 
+.col-1 {
+    width: 900px;
+    margin: 1rem 0;
+}
+
 .col-2 {
     width: 450px;
+}
+
+.col-3 {
+    width: 300px;
 }
 
 .row-1 {
@@ -122,7 +131,6 @@ p {
 }
 
 .menu ul {
-    height: 300px;
     margin-bottom: 90px;
     list-style: none;
     padding: 0;
